@@ -17,6 +17,9 @@ import isceobj
 from iscesys.Component.ProductManager import ProductManager as PM
 #from isceobj.TopsProc import runGeocode
 
+#This code is primarily provided by Magali Barba @ CU Boulder and edited for use
+#as functions my Mylène Jacquemart (CU Boulder)
+
 ############
 # Functions
 ############
