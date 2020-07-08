@@ -11,6 +11,9 @@ import isce
 import isceobj
 from iscesys.Component.ProductManager import ProductManager as PM
 
+#Original code provided by Magali Barba-Sevilla @ CU Boulder
+
+
 def int2flt(dims, results_path):
     fid = open(os.path.join(results_path,'hgt.dem'),'rb')
     gid = open(os.path.join(results_path,'hgt.flt'),'wb')

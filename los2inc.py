@@ -14,7 +14,9 @@ import re
 import collections
 import lxml.objectify as ob
 
-###Create a memory map using numpy's memmap module.
+#Original code provided by Magali Barba-Sevilla @ CU Boulder
+
+###Create a memory map using numpy's memmap module (copied from ISCE tsinsar).
 def load_mmap(fname, nxx, nyy, map='BSQ', nchannels=1, channel=1, datatype=np.float32, quiet=False, conv=False):
     '''Create a memory map to data on file.
 
